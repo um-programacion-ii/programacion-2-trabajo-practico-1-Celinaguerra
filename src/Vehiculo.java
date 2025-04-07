@@ -44,4 +44,9 @@ public class Vehiculo {
     public void setCapacidadCargaKg(double capacidadCargaKg) {
         this.capacidadCargaKg = capacidadCargaKg;
     }
+
+    public String getTipo() {
+        return "Vehiculo";
+    }
+
 }
